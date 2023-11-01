@@ -1,0 +1,71 @@
+.area{
+  border-radius: 4px;
+  width: 200px;
+}
+.inputtype{
+  border:solid;
+  background-color: blue;
+  color: white;
+  width: 100px;
+}
+.main {
+  margin: 10% 20%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #d8d9da;
+  padding: 20px;
+}
+.data {
+  margin: 5px ;
+  border-radius: 5px;
+  border: 1px solid rgb(188, 187, 187);
+  padding: 5px;
+}
+.signupcont{
+  padding: 5px;
+  width: 250px;
+  margin-top: 20px !important;
+  margin: auto;
+  outline: solid 1px black;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.but{
+  margin-top: 10px;
+  margin-left: 30%;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.but:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.but:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
